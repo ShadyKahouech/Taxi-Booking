@@ -1,0 +1,15 @@
+.homepage__container-sidebar__icon {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+.login__container__body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35rem;
+  margin-top: 8rem;
+}

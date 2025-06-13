@@ -1,0 +1,40 @@
+/* index.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%; /* 1rem = 10px (10px / 16px = 62.5%) */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+:root {
+  --color-primary: #007bff;
+  --color-dark: #333;
+  --max-width: 120rem;
+}
+
+/* Mobile-first default styles */
+body {
+  font-size: 1.4rem;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.8rem;
+  }
+}
